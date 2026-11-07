@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "title": {
+    "en": "SD1's DSH plugins",
+    "zh": "SD1 的 DSH 插件"
+  },
+  "description": {
+    "en": "Self-hosted plugin index for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 自建插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    },
+    "labels": {
+      "ui": {
+        "title": {
+          "en": "UI",
+          "zh": "界面"
+        }
+      },
+      "account": {
+        "title": {
+          "en": "Account",
+          "zh": "账户"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-balance",
+      "title": {
+        "en": "Account balance pill",
+        "zh": "账户余额胶囊"
+      },
+      "description": {
+        "en": "Shows the signed-in DeepSeek account balance as a small pill in the DSH window and refreshes it every minute.",
+        "zh": "在 DSH 窗口顶部显示当前 DeepSeek 账户余额，每分钟刷新一次。"
+      },
+      "author": "SD1",
+      "homepage": "https://github.com/yulinxie/dsh-plugin-balance",
+      "repository": {
+        "url": "https://github.com/yulinxie/dsh-plugin-balance"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "balance",
+          "account",
+          "余额",
+          "账户"
+        ],
+        "labels": [
+          "ui",
+          "account"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794034800,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yulinxie/dsh-plugin-balance",
+            "commit": "7a8b62b8b9d9f2212dc011d46532db3468d4c695"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
