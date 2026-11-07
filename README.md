@@ -4,7 +4,13 @@
 
 DSH 的「市场」= 用户自己配置的一串 **索引 URL**。索引是一份 JSON（格式 1），DSH 读取后渲染成「插件 → 发现」页里的列表，点安装时它会调用插件管理器执行 `pnpm add`。换句话说：**你自己托管一份索引，就等价于开了一个市场**，别人把 URL 加进「发现」就能看到并安装。
 
-本目录里的 `index.json` 就是这样一份索引，已用 DSH 自带的校验器（`dsh-plugin-market-index`，格式 1）验证通过。
+本目录里的 `index.json` 就是这样一份索引，已用 DSH 自带的校验器（`dsh-plugin-market-index`，格式 1）验证通过，并托管在 GitHub Pages 上：
+
+```
+https://yulinxie.github.io/dsh-market/index.json
+```
+
+把这个地址填进「发现」页即可（下面还有本机自托管的办法）。
 
 ## 在 DSH 里打开「发现」页
 
